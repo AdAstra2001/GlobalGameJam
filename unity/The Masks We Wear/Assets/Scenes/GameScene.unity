@@ -565,8 +565,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 348, y: 142}
-  m_SizeDelta: {x: -753.8771, y: -315.1858}
+  m_AnchoredPosition: {x: 293.36, y: 137.3013}
+  m_SizeDelta: {x: -644.6, y: -305.7884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &616317811
 MonoBehaviour:
@@ -722,7 +722,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836046986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -731,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45000002, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.7016521}
-  m_AnchoredPosition: {x: 5.5031, y: 0}
-  m_SizeDelta: {x: 189, y: 32}
+  m_AnchoredPosition: {x: 31.725006, y: -11.201851}
+  m_SizeDelta: {x: 183.53616, y: 30.104996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &836046988
 MonoBehaviour:
@@ -938,8 +938,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 348, y: -77}
-  m_SizeDelta: {x: -753.8771, y: -315.1858}
+  m_AnchoredPosition: {x: 293.36, y: -4.4601}
+  m_SizeDelta: {x: -644.6, y: -298.6832}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091160982
 MonoBehaviour:
@@ -1033,7 +1033,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157199196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1042,8 +1042,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45000002, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.7016521}
-  m_AnchoredPosition: {x: 5.5031, y: 0}
-  m_SizeDelta: {x: 189, y: 32}
+  m_AnchoredPosition: {x: 3.8849983, y: 0.0000019073486}
+  m_SizeDelta: {x: 138.04239, y: 10.385464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157199198
 MonoBehaviour:
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -2.6761084}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1784,7 +1784,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959486112}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1793,8 +1793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45000002, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.7016521}
-  m_AnchoredPosition: {x: 5.5031, y: 0}
-  m_SizeDelta: {x: 189, y: 32}
+  m_AnchoredPosition: {x: 2.893982, y: -3.0101013}
+  m_SizeDelta: {x: 143.37247, y: 21.519741}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959486114
 MonoBehaviour:
@@ -1881,7 +1881,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.89204407, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1931,8 +1931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 348, y: 40}
-  m_SizeDelta: {x: -753.8771, y: -315.1858}
+  m_AnchoredPosition: {x: 293.363, y: 68.099106}
+  m_SizeDelta: {x: -644.603, y: -301.8053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2001418932
 MonoBehaviour:
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
