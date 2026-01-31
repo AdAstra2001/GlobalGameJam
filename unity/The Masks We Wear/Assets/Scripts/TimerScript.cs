@@ -25,9 +25,14 @@ public class TimerScript : MonoBehaviour
         //Invoke("timerOperation", 1);
         if (seconds <= 0)
         {
-            minutes--;
-            seconds = 59;
+            //minutes--;
+            seconds = 60;
         }
+        //if (minutes < 0)
+        //{
+            //really we would give them a penalty or something here
+        //    seconds = 59;
+        //}
         seconds -= Time.deltaTime;
         UpdateUI();
 

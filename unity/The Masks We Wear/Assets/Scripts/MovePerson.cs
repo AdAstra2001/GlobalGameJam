@@ -6,6 +6,7 @@ public class MovePerson : MonoBehaviour
     public float moveSpeed = 6f;
     private Vector3 targetPosition;
     private static Vector3 basePosition;
+    public bool reachedTarget = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +21,10 @@ public class MovePerson : MonoBehaviour
         if (transform.position != targetPosition)
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            reachedTarget = true;
         }
 
     }
