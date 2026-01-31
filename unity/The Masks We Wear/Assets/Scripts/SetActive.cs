@@ -20,7 +20,7 @@ public class SetActive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Person.transform.position.y < -6)
+        if (Person.transform.position.y < -10)
         {
             Person.SetActive(false);
             Mask1.SetActive(false);
