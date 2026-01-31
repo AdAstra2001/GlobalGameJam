@@ -3,13 +3,28 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TransititionScreen : MonoBehaviour
+public class TransitionScreen: MonoBehaviour
 {
     public CanvasGroup group;
+    public GameObject Background;
     public float fadeDuration = 1.5f;
+    public static TransitionScreen Instance;
 
+    public void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
     private void Start()
     {
+        Background.SetActive(false);
+    }
+
+    public void FaidInUI()
+    {
+        Background.SetActive(true);
         group.alpha = 0f;
         StartCoroutine(FadeIn());
     }
