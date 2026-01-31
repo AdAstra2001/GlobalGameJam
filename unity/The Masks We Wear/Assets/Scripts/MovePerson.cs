@@ -12,7 +12,7 @@ public class MovePerson : MonoBehaviour
     {
         basePosition = transform.position;
         targetPosition = transform.position;
-        targetPosition = new Vector3(-5, 0, 0);//Edit this to the position of the player head
+        targetPosition = new Vector3((float)-3.08, (float)0.37, 0);//Edit this to the position of the player head
     }
 
     // Update is called once per frame

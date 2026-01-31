@@ -30,7 +30,7 @@ public class MaskMove : MonoBehaviour
         {
             mask.boxCollider.enabled = false;
         }
-        targetPosition = new Vector3(-5, 0, 0);//Edit this to the position of the player head
+        targetPosition = new Vector3((float)-3.11, (float)0.17, 0);//Edit this to the position of the player head
     }
 
     // Update is called once per frame
