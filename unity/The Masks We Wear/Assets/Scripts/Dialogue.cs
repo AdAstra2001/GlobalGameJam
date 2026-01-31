@@ -28,12 +28,13 @@ public class Dialogue : MonoBehaviour
 
     }
 
-    public void StartDialogue()
+    public void StartDialogue(int index)
     {
-        if (clicked)
-        {
-            return;
-        }
+        this.index = index;
+        //if (clicked)
+        //{
+        //    return;
+        //}
         if (person.reachedTarget)
         {
             clicked = true;
