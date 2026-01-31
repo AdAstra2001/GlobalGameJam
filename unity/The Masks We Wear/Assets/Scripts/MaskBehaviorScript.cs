@@ -14,7 +14,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        targetPosition = new Vector3(0, 0, 0);
+        targetPosition = new Vector3(-5, 0, 0);//Edit this to the position of the player head
     }
 
     // Update is called once per frame
