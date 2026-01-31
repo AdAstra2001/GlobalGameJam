@@ -8,12 +8,12 @@ public class TimerScript : MonoBehaviour
     //public TMP_Text days;
     public int numberOfDays;
     public float seconds;
-    public DayNightScript dayNightScript;
+    //public DayNightScript dayNightScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        minutes = 1;
-        seconds = 0;
+        minutes = 0;
+        seconds = 60;
         numberOfDays = 0;
         //UpdateUI();
     }
@@ -21,28 +21,32 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //calls the timer operation every 5 seconds
-        Invoke("timerOperation", 1);
-        
+        //calls the timer operation 
+        //Invoke("timerOperation", 1);
+        if (seconds <= 0)
+        {
+            minutes--;
+            seconds = 59;
+        }
+        seconds -= Time.deltaTime;
+        UpdateUI();
+
     }
 
     /// <summary>
     /// causes the timer to count down
     /// </summary>
-    private void timerOperation()
+    /*private void timerOperation()
     {
-        if (dayNightScript.spawned == false)
-        {
 
             if (seconds <= 0)
             {
                 minutes--;
                 seconds = 59;
             }
-            seconds -= Time.deltaTime*(float)0.5;
+            seconds -= Time.deltaTime;
             UpdateUI();
-        }
-    }
+    }*/
 
     /// <summary>
     /// updates the timer UI
