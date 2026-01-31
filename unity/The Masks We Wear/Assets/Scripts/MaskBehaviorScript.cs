@@ -31,7 +31,7 @@ public class MaskMove : MonoBehaviour
             mask.boxCollider.enabled = false;
         }
         
-        targetPosition = new Vector3((float)-3.11, (float)0.17, 0);//Edit this to the position of the player head
+        targetPosition = new Vector3((float)-3.11, (float)0.17, (float)-0.2);//Edit this to the position of the player head
     }
 
     // Update is called once per frame
@@ -41,7 +41,7 @@ public class MaskMove : MonoBehaviour
         {
             this.boxCollider.enabled = true;
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-            this.boxCollider.enabled = false;
+            
         }
         
     }
