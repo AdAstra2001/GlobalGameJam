@@ -41,7 +41,6 @@ public class MaskMove : MonoBehaviour
         {
             this.boxCollider.enabled = true;
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-            this.boxCollider.enabled = false;
         }
         
     }
