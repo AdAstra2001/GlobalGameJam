@@ -1,11 +1,14 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MaskMove : MonoBehaviour
 {
     public float moveSpeed = 4f;
     private Vector3 targetPosition;
     private static Vector3 basePosition;
+
+    private bool shouldMove = false;
+    public BoxCollider boxCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +16,20 @@ public class NewMonoBehaviourScript : MonoBehaviour
         targetPosition = transform.position;
     }
     private void OnMouseDown()
-    {
+    { //If another cube was already chosen, do nothing
+        if (DisableClick.Instance.maskChosen)
+        {
+            return;
+        }
+        // Lock all other masks
+        DisableClick.Instance.maskChosen = true;
+
+        //Disable all mask colliders to prevent further clicking
+        MaskMove[] masks = FindObjectsByType<MaskMove>(FindObjectsSortMode.None);
+        foreach (MaskMove mask in masks)
+        {
+            mask.boxCollider.enabled = false;
+        }
         targetPosition = new Vector3(-5, 0, 0);//Edit this to the position of the player head
     }
 
@@ -26,4 +42,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
 
     }
+
+  
 }
