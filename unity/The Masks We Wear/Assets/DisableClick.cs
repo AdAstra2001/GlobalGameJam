@@ -12,10 +12,6 @@ public class DisableClick : MonoBehaviour
         {
             Instance = this;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
 
