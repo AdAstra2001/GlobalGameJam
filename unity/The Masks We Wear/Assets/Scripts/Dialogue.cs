@@ -11,7 +11,7 @@ public class Dialogue : MonoBehaviour
     private int index;
     public GameObject dialogueBox;
     public MovePerson person;
-
+    private bool clicked = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,8 +30,13 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        if (clicked)
+        {
+            return;
+        }
         if (person.reachedTarget)
         {
+            clicked = true;
             index = 0;
             dialogueBox.SetActive(true);
             //doesn't run a method all at one. Does one step, takes a break, then continues to the next step
