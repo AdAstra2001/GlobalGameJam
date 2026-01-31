@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DayNightScript : MonoBehaviour
 {
+    //fields
     private bool fadeIn;
     private bool fadeOut;
     private float fadeSpeed = 1.5f;
@@ -22,19 +23,22 @@ public class DayNightScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer.minutes == 15 && spawned == true)
+        //causes the day text to fade out
+        if (timer.minutes == 1 && spawned == true)
         {
             FadeOut();
             spawned = false;
             dayTracker.text = $"Day {dayCount}";
         }
-        if (timer.minutes == 14 && (int)timer.seconds == 50 && spawned == false)
+        //causes the day text to fade in
+        if (timer.minutes == 0 && (int)timer.seconds == 0 && spawned == false)
         {
             FadeIn();
             spawned = true;
             dayCount++;
             dayTracker.text = $"Day {dayCount}";
         }
+        //causes the fading effect for the background
         if (fadeOut && GetComponent<Renderer>() != null)
         {
             Color color = GetComponent<Renderer>().material.color;
@@ -46,6 +50,7 @@ public class DayNightScript : MonoBehaviour
                 fadeOut = false;
             }
         }
+        //causes the fading effect for the text
         else if (fadeOut)
         {
             Color color = GetComponent<TMP_Text>().color;
@@ -57,6 +62,7 @@ public class DayNightScript : MonoBehaviour
                 fadeOut = false;
             }
         }
+        //causes the fading in effect for the background
         if (fadeIn && GetComponent<Renderer>() != null)
         {
             Color color = GetComponent<Renderer>().material.color;
@@ -68,6 +74,7 @@ public class DayNightScript : MonoBehaviour
                 fadeIn = false;
             }
         }
+        //causes the fading in effect for the text
         else if (fadeIn)
         {
             Color color = GetComponent<TMP_Text>().color;
@@ -81,6 +88,9 @@ public class DayNightScript : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// method that toggles fade in mechanic
+    /// </summary>
     private void FadeIn()
     {
         fadeIn = true;
@@ -89,6 +99,9 @@ public class DayNightScript : MonoBehaviour
         dayTracker.enabled = true;*/
     }
 
+    /// <summary>
+    /// method that toggles the fade out mechanic
+    /// </summary>
     private void FadeOut()
     {
         fadeOut = true;
