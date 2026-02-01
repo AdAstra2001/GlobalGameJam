@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ToggleIntake : MonoBehaviour
 {
-    public GameObject intakeForm;
+    public GameObject form;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,15 +15,15 @@ public class ToggleIntake : MonoBehaviour
        
     }
 
-    public void ToggleIntakeForm()
+    public void ToggleForm()
     {
-        if(intakeForm.activeSelf)
+        if(form.activeSelf)
         {
-            intakeForm.SetActive(false);
+            form.SetActive(false);
         }
         else
         {
-            intakeForm.SetActive(true);
+            form.SetActive(true);
         }
     }
 }
