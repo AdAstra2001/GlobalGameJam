@@ -650,7 +650,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: 'All traces of Sebastian have disappeared. Notably, reports of wild animal
+    attacks seem to occur more often. One day, you recieve a latter. Inside, there
+    is a small paper saying: "A poor selection on your part. I will do what I must
+    to avoid being reported..."'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -715,7 +718,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -205.7792, y: 0, z: -239.56398, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2125,7 +2128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: TIME OUT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4317,9 +4320,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5096149952026832038, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_text
+      value: 'Sebasitan is running in the next election, promising a better life
+        for those in the Lower Region. One day, you recieve a letter. Inside, there
+        is a small paper saying: "You made the right choice. I will survive the proper
+        way.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096149952026832038, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096149952026832038, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_margin.x
+      value: -159.70926
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096149952026832038, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_margin.z
+      value: -175.06615
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096149952026832038, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6732676796457101718, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8617497699179530743, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -390
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
