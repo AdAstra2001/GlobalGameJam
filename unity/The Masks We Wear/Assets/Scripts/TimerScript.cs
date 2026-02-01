@@ -1,6 +1,6 @@
 using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class TimerScript : MonoBehaviour
 {
     public TMP_Text timerText;
@@ -9,6 +9,7 @@ public class TimerScript : MonoBehaviour
     public int numberOfDays;
     public float seconds;
     public static TimerScript instance;
+    public Slider timerSlider;
     //public DayNightScript dayNightScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -43,9 +44,9 @@ public class TimerScript : MonoBehaviour
             //really we would give them a penalty or something here
         //    seconds = 59;
         //}
-        seconds -= Time.deltaTime;
+        seconds -= Time.deltaTime - (float)(timerSlider.value*0.001);
         UpdateUI();
-
+        
     }
 
     /// <summary>
