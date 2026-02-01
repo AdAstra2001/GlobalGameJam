@@ -3628,7 +3628,7 @@ PrefabInstance:
     - target: {fileID: 4265512187123511765, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: timeOutText
       value: 
-      objectReference: {fileID: 1575514894}
+      objectReference: {fileID: 486700870}
     - target: {fileID: 4265512187123511765, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: incorrectText
       value: 
