@@ -48,7 +48,7 @@ public class TimerScript : MonoBehaviour
         //really we would give them a penalty or something here
         //    seconds = 59;
         //}
-        seconds -= Time.deltaTime - (float)(timerSlider.value*0.007);
+        seconds -= Time.deltaTime - (float)(timerSlider.value*0.0009);
         UpdateUI();
         
     }
