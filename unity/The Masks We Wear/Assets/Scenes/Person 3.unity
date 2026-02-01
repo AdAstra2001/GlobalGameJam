@@ -993,8 +993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352.32, y: -422.2}
-  m_SizeDelta: {x: 1215.4, y: 147.36}
+  m_AnchoredPosition: {x: -352.32, y: -413.09}
+  m_SizeDelta: {x: 1215.4, y: 129.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &708993858
 MonoBehaviour:
@@ -3707,7 +3707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4736048385521104516, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0025634766
+      value: 0.0024719238
       objectReference: {fileID: 0}
     - target: {fileID: 4736048385521104516, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3782,10 +3782,46 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1515335323283820183, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_text
+      value: Notes
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515335323283820183, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_fontSize
+      value: 21.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515335323283820183, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1556326100303624668, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 115256774}
+    - target: {fileID: 1653304710946254695, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -287.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653304710946254695, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -94.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653304710946254695, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -251.17407
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836127454109291981, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -290.9857
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836127454109291981, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -95.40651
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836127454109291981, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -251.1741
+      objectReference: {fileID: 0}
     - target: {fileID: 2491937011510875537, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
       propertyPath: m_Name
       value: ClipBoard with Intake
