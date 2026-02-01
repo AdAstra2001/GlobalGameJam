@@ -1169,7 +1169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379498693880943169, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 573818553331163779, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_Maskable
