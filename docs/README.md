@@ -22,8 +22,6 @@ These are your mandated masks\! Assign the client a mask to match the emotion th
 
 “Let’s make this quick.”
 
-“Whatever, thanks I guess”
-
 Name: David    Sex: Male
 
 Age: 38    DOB: 11/27/20XX
@@ -48,14 +46,14 @@ What game wer- → “Ya talking about BlueQueen? Best game this century\! Been 
 ### Observations
 
 * Steady Speech  
-* Abrupt Movements
+* Aggressive Tone
 * Didn’t let me finish talking
+
+“Whatever, thanks I guess.”
 
 ## Client 2 – Alyssa (Nervous)
 
 “Sorry that I’m late, I made a wrong turn at the sinkhole.”
-
-“I see… that makes sense, thank you.”
 
 Name: Alyssa    Sex: Prefer not to say
 
@@ -66,14 +64,14 @@ Current Address: 225 Beacon St
 ### Reason for Visit
 
 * Recently **attacked** by a wild animal while exploring  
-* **My workplace review board** is reviewing if I’m a good fit  
-* The Fortune Teller says that I should **avoid other people**
+* **My workplace** has been in disarray lately
+* A fortune teller advised me to **avoid other people**
 
 ### Q\&A
 
 Do you want to talk about the attack? → “Yeah, I'll recover. Physically, at least. I keep seeing the creature in my dreams. Its face is always blurred, almost empty. I remember thinking it was… blank.”
 
-What is your job? → “I work for the country’s media division. There’s been some complaints about me though. I’ve been… unfocused, and it’s affecting my productivity.”
+What is your job? → “I work for the country’s media division. There’s been some issues, especially with the rebel forces in the North growing. I’ve been… unfocused, and it’s affecting my productivity.”
 
 Do you agree? → “I think it’s best… she always knows best. People are not my thing anyways. Haha\! Sorry, I don’t know why I found that funny.”
 
@@ -83,11 +81,11 @@ Do you agree? → “I think it’s best… she always knows best. People are no
 * Alyssa fidgets when talking about work  
 * Laughed at her own sentence
 
+“I see… that makes sense, thank you.”
+
 ## **Client 3 – Sebastien (Confident)**
 
 “Hello.”
-
-“...”
 
 Name: Sebastien    Sex: Male
 
@@ -117,6 +115,8 @@ What’s the Upper Region like? → “Remarkable. A significant improvement. I 
 * Short Responses  
 * Calm Tone  
 * Steady Speech
+
+“...”
 
 ## Incorrect Ending(s)
 
