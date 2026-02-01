@@ -890,7 +890,7 @@ MonoBehaviour:
     and it\u2019s affecting my productivity."
   - "I think it\u2019s best\u2026 she always knows best. People are not my thing
     anyway. Haha! Sorry, I don\u2019t know why I found that funny."
-  typingSpeed: 0.04
+  typingSpeed: 0.05
   index: 0
   dialogueBox: {fileID: 916141250}
   person: {fileID: 1797583779}
