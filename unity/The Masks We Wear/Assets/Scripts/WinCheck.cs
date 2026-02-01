@@ -18,7 +18,7 @@ public class WinCheck : MonoBehaviour
     }
     private void Update()
     {
-        if (TimerScript.instance.fade == 1)
+        if (TimerScript.instance.seconds <= 0)
         {
             TransitionScreen.instance.ShowResult(TransitionScreen.ResultType.TimeOut);
         }
