@@ -5,7 +5,7 @@ public class ObservationNotesScript : MonoBehaviour
     public TextMeshProUGUI observationNotesText;
     public string[] bulletPoints;
     public bool[] bulletPointsDisplayed;
-    public Dialogue dialogue;
+    public Dialogue3 dialogue;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
