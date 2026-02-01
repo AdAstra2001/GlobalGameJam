@@ -24,6 +24,7 @@ public class PanelClicker : MonoBehaviour, IPointerClickHandler
         {
             return;
         }
+        Debug.Log("Starting Dialogue");
         dialogue.StartDialogue(index);
         hasRun = true;
     }

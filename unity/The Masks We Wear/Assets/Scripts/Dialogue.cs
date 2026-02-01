@@ -8,10 +8,10 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI text;
     public string[] sentences;
     public float typingSpeed;
-    private int index;
+    public int index;
     public GameObject dialogueBox;
     public MovePerson person;
-    private bool clicked = false;
+    public bool clicked = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
