@@ -23,7 +23,7 @@ public class LifeSystem : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            Instance = this;
         }
     }
     public void LoseLife()

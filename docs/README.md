@@ -6,7 +6,7 @@
 
 As the nation of Theni commemorates its centennial, we honor the tragic event that reshaped our society. Twenty years ago, a massive chemical explosion killed millions and caused 99% of us to lose the ability to perceive emotions. As a mandated Mask Therapist, you will assign our residents the proper emotion masks so they can thrive in our wondrous society. Immediately dial 666-131-1911 to report unmasked citizens. If you see something, say something.
 
-![Seal](https://ibb.co/BK3wxS1q)
+![Seal](../art/Theni%20Seal.png)
 
 \*black screen fades, main screen is now visible\*
 
@@ -48,7 +48,7 @@ What game wer- → “Ya talking about BlueQueen? Best game this century\! Been 
 ### Observations
 
 * Steady Speech  
-* Abrupt Movements (? – anger references need to be looked at)  
+* Abrupt Movements
 * Didn’t let me finish talking
 
 ## Client 2 – Alyssa (Nervous)
@@ -71,7 +71,7 @@ Current Address: 225 Beacon St
 
 ### Q\&A
 
-Do you want to talk about the attack? → “Yeah, physically at least. I keep seeing the beast in my dreams though… for some reason its face is very hazy to me. I think it was… blank.”
+Do you want to talk about the attack? → “Yeah, I'll recover. Physically, at least. I keep seeing the creature in my dreams. Its face is always blurred, almost empty. I remember thinking it was… blank.”
 
 What is your job? → “I work for the country’s media division. There’s been some complaints about me though. I’ve been… unfocused, and it’s affecting my productivity.”
 
@@ -85,7 +85,7 @@ Do you agree? → “I think it’s best… she always knows best. People are no
 
 ## **Client 3 – Sebastien (Confident)**
 
-“Hello there.”
+“Hello.”
 
 “...”
 
@@ -97,19 +97,19 @@ Address: 225 Tanglewood Dr
 
 ### Reason for Visit
 
-* I recently moved due to a **construction incident**  
+* I recently moved due to a **construction-related incident**  
 * Got hired for a **new job** with better pay  
-* Living lavishly in the **Upper Region**
+* Residing in the **Upper Region**
 
 ### Q\&A
 
-Your DOB on file seems to have an error. → “I have no idea what you are talking about. Do your job, and I’ll do mine.”
+Your DOB on file seems to have an error. → “If there's an error, it isn't mine. Let's move on…”
 
-Tell me more about the incident. → “I’d rather not.”
+Tell me more about the incident. → “I don't see how that's relevant.”
 
-How’s your new job been? → “Ah yes, it is wonderful. I love working towards a better future for our… nation. I’ve been doing many new things.”
+How’s your new job been? → “Wonderful. I love working towards a better future for our… nation. It's been quite rewarding.”
 
-What’s the Upper Region like? → “Breathtaking. Much better than this dump. I won’t be there long though – I plan on rising up in this world, to the top.”
+What’s the Upper Region like? → “Remarkable. A significant improvement. I won’t be there long though – I have plans to move much higher.”
 
 ### Observations
 

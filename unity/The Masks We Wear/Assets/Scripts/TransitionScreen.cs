@@ -5,16 +5,20 @@ using UnityEngine.UI;
 
 public class TransitionScreen: MonoBehaviour
 {
+    public static TransitionScreen instance;
     public CanvasGroup group;
     public GameObject Background;
     public float fadeDuration = 1.5f;
-    public static TransitionScreen Instance;
 
     public void Awake()
     {
-        if (Instance == null)
+        if (instance == null)
         {
-            Instance = this;
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
     private void Start()
@@ -26,6 +30,14 @@ public class TransitionScreen: MonoBehaviour
     {
         Background.SetActive(true);
         group.alpha = 0f;
+        StartCoroutine(Wait());
+    }
+
+    IEnumerator Wait()
+    {
+        Debug.Log("E");
+        yield return new WaitForSecondsRealtime(2);
+        Debug.Log("OpenEnding");
         StartCoroutine(FadeIn());
     }
 
