@@ -56,7 +56,6 @@ public class Dialogue3 : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
         clicked = true;
-        PanelClicker2.Instance.hasRun = true;
         Debug.Log("Finished Typing");
     }
 }
