@@ -2892,7 +2892,7 @@ MonoBehaviour:
     the ones missing out."
   - Ya talking about BlueQueen? Best game this century! Been making good dough from
     it, except when ya play with scammers. Dirty lot.
-  typingSpeed: 0.1
+  typingSpeed: 0.05
   index: 0
   dialogueBox: {fileID: 1954202400}
   person: {fileID: 1797583779}
@@ -3622,7 +3622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379498693880943169, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 573818553331163779, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_Maskable

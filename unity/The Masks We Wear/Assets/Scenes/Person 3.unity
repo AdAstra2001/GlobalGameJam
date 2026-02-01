@@ -338,7 +338,7 @@ MonoBehaviour:
     plans to move much higher. '
   - 'Wonderful. I love working towards a better future for our...nation. It''s been
     quite rewarding. '
-  typingSpeed: 0
+  typingSpeed: 0.05
   index: 0
   dialogueBox: {fileID: 115256773}
   person: {fileID: 1797583779}
@@ -1372,8 +1372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 109.12224, y: -0.0000014071}
-  m_SizeDelta: {x: 979.7655, y: 92.336}
+  m_AnchoredPosition: {x: -4.3488, y: -0.0000014071}
+  m_SizeDelta: {x: 1206.7, y: 92.336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959305030 stripped
 MonoBehaviour:
