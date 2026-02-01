@@ -15,4 +15,10 @@ public class MainMenu : MonoBehaviour
       Debug.Log("Quit!");
       Application.Quit();
     }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadSceneAsync(0);
+        Debug.Log("Game Reset!");
+    }
 }

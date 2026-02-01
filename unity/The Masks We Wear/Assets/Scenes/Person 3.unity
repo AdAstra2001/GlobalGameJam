@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas With Timer
       objectReference: {fileID: 0}
+    - target: {fileID: 606773913357003679, guid: e369b832b693439488b57e16d26b3e2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 886416247911667451, guid: e369b832b693439488b57e16d26b3e2c, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -336,8 +340,8 @@ MonoBehaviour:
     quite rewarding. '
   typingSpeed: 0
   index: 0
-  dialogueBox: {fileID: 0}
-  person: {fileID: 0}
+  dialogueBox: {fileID: 115256773}
+  person: {fileID: 1797583779}
   clicked: 0
 --- !u!224 &115256775
 RectTransform:
@@ -465,7 +469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &486700870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,8 +993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352.33, y: -418.56}
-  m_SizeDelta: {x: 1215.4, y: 115.28}
+  m_AnchoredPosition: {x: -352.32, y: -422.2}
+  m_SizeDelta: {x: 1215.4, y: 147.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &708993858
 MonoBehaviour:
@@ -1915,7 +1919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1575514894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2510,7 +2514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
-  reachedTarget: 0
+  targetPosition: {x: -3.08, y: 0.24, z: 0}
+  reachedTarget: 1
 --- !u!114 &1797583780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4159713680085137667, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4265512187123511765, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: group
       value: 
@@ -3760,6 +3769,10 @@ PrefabInstance:
     - target: {fileID: 398278059327455228, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
       propertyPath: dialogue
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 398278059327455228, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1556326100303624668, guid: 17dbab514b56b28449159e384c80e87b, type: 3}
       propertyPath: dialogue
