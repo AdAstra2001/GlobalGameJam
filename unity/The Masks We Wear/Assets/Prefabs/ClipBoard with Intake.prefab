@@ -1583,9 +1583,15 @@ RectTransform:
   - {fileID: 3230839234424290179}
   - {fileID: 6626589095925080260}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 8451135522178441596}
   - {fileID: 1261620839421212466}
   - {fileID: 4160014051202681395}
+=======
+  - {fileID: 7379441896384485181}
+  - {fileID: 8539114452659138557}
+  - {fileID: 6159227140149886455}
+>>>>>>> Stashed changes
 =======
   - {fileID: 7379441896384485181}
   - {fileID: 8539114452659138557}
@@ -1701,7 +1707,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Color: {r: 0.8196079, g: 0.8196079, b: 0.8196079, a: 0}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -2826,7 +2836,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Color: {r: 0.8196079, g: 0.8196079, b: 0.8196079, a: 0}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -4041,7 +4055,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Color: {r: 0.8196079, g: 0.8196079, b: 0.8196079, a: 0}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
