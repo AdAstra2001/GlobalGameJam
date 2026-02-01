@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713417499}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0524e49b64b5a2b479a33878cdd85a7a, type: 3}
   m_Name: 
@@ -2133,6 +2133,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7871556540511652807, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4807029606597994063, guid: cd08d9647d7a18248abab92256e7c3b3, type: 3}
     - target: {fileID: -3888481672020999207, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_Name
       value: patientPlaceholder
@@ -2143,11 +2147,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8501
+      value: 0.7599299
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8725
+      value: 0.77995396
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.89393
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2155,7 +2163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.57
+      value: -9.41
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 358be9d73372020409cbca0c8cfafdc0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2635,8 +2643,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.931899, y: 3.4515183, z: 2}
-  m_Center: {x: -0.055465695, y: -0.033850655, z: 0}
+  m_Size: {x: 3.2137556, y: 2.9327927, z: 2}
+  m_Center: {x: -0.008489896, y: 0.22551577, z: 0}
 --- !u!1 &1804507042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3599,7 +3607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379498693880943169, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 573818553331163779, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_Maskable
