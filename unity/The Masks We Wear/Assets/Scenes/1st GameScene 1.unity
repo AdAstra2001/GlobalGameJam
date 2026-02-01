@@ -274,9 +274,6 @@ PrefabInstance:
       addedObject: {fileID: 708993857}
     - targetCorrespondingSourceObject: {fileID: 9110556297924479960, guid: e369b832b693439488b57e16d26b3e2c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1702466981}
-    - targetCorrespondingSourceObject: {fileID: 9110556297924479960, guid: e369b832b693439488b57e16d26b3e2c, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 306862148170877033}
     - targetCorrespondingSourceObject: {fileID: 9110556297924479960, guid: e369b832b693439488b57e16d26b3e2c, type: 3}
       insertIndex: -1
@@ -960,7 +957,7 @@ GameObject:
   - component: {fileID: 708993859}
   - component: {fileID: 708993858}
   m_Layer: 5
-  m_Name: Image
+  m_Name: TextBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -977,13 +974,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1702466981}
   m_Father: {fileID: 202047468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -353.37103, y: -428.40045}
-  m_SizeDelta: {x: 1217.398, y: 134.9591}
+  m_AnchoredPosition: {x: -352.4, y: -407.09}
+  m_SizeDelta: {x: 1215.5, y: 92.334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &708993858
 MonoBehaviour:
@@ -1033,6 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 713417500}
   - component: {fileID: 713417501}
+  - component: {fileID: 713417502}
   m_Layer: 0
   m_Name: Object Manager
   m_TagString: Untagged
@@ -1072,6 +1071,18 @@ MonoBehaviour:
   Mask2: {fileID: 2129543465}
   Mask3: {fileID: 1917336123}
   Mask4: {fileID: 2068607760}
+--- !u!114 &713417502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713417499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f366f4f9bbe4a294fb4a67439713a7a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &836046986
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,18 +2017,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702466980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 367555000}
-  m_Father: {fileID: 202047468}
+  m_Father: {fileID: 708993857}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -353.37, y: -428.4}
-  m_SizeDelta: {x: -702.6, y: -771.55}
+  m_AnchoredPosition: {x: 0.0009765625, y: 0.00039672852}
+  m_SizeDelta: {x: 0.0020751953, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702466982
 MonoBehaviour:
@@ -3301,6 +3312,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClipBoard with Intake
       objectReference: {fileID: 0}
+    - target: {fileID: 9048557699165274821, guid: aa0f218bccdcd3b49bfe990d7c8e6e2b, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 713417502}
+    - target: {fileID: 9048557699165274821, guid: aa0f218bccdcd3b49bfe990d7c8e6e2b, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 9048557699165274821, guid: aa0f218bccdcd3b49bfe990d7c8e6e2b, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Dialog3, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7206987089176118340, guid: aa0f218bccdcd3b49bfe990d7c8e6e2b, type: 3}
     m_RemovedGameObjects: []
@@ -3326,7 +3349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379498693880943169, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 573818553331163779, guid: 448b5b9286a47f44794e0c4f070cca61, type: 3}
       propertyPath: m_Maskable
