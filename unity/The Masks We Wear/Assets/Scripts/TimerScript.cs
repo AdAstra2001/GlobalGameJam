@@ -10,7 +10,7 @@ public class TimerScript : MonoBehaviour
     public float seconds;
     public int fade = 0;
     public static TimerScript instance;
-    //public Slider timerSlider;
+    public Slider timerSlider;
     //public DayNightScript dayNightScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -48,7 +48,7 @@ public class TimerScript : MonoBehaviour
         //really we would give them a penalty or something here
         //    seconds = 59;
         //}
-        seconds -= Time.deltaTime; //- (float)(timerSlider.value*0.001);
+        seconds -= Time.deltaTime - (float)(timerSlider.value*0.007);
         UpdateUI();
         
     }
