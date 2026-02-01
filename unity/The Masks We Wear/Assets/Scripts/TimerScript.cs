@@ -8,8 +8,18 @@ public class TimerScript : MonoBehaviour
     //public TMP_Text days;
     public int numberOfDays;
     public float seconds;
+    public static TimerScript instance;
     //public DayNightScript dayNightScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
     void Start()
     {
         minutes = 0;

@@ -2,14 +2,34 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
+using System.Xml.XPath;
 
 public class TransitionScreen: MonoBehaviour
 {
+    public TMP_Text correctText;
+    public TMP_Text incorrectText;
+    public TMP_Text timeOutText;
     public static TransitionScreen instance;
     public CanvasGroup group;
     public GameObject Background;
+    public int secondsToWait = 2;
     public float fadeDuration = 1.5f;
 
+    public enum ResultType
+    {
+        Correct,
+        Wrong,
+        TimeOut
+    }
+
+    private void DisableAllText()
+    {
+        correctText.gameObject.SetActive(false);
+        incorrectText.gameObject.SetActive(false);
+        timeOutText.gameObject.SetActive(false);
+    }
+    
     public void Awake()
     {
         if (instance == null)
@@ -24,6 +44,7 @@ public class TransitionScreen: MonoBehaviour
     private void Start()
     {
         Background.SetActive(false);
+        DisableAllText();
     }
 
     public void FaidInUI()
@@ -36,7 +57,7 @@ public class TransitionScreen: MonoBehaviour
     IEnumerator Wait()
     {
         Debug.Log("E");
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(secondsToWait);
         Debug.Log("OpenEnding");
         StartCoroutine(FadeIn());
     }
@@ -57,6 +78,26 @@ public class TransitionScreen: MonoBehaviour
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync(currentSceneIndex+1);
+    }
+
+    public void ShowResult(ResultType result)
+    {
+        DisableAllText();
+        switch (result)
+        {
+            case ResultType.Correct:
+                correctText.gameObject.SetActive(true);
+                break;
+            case ResultType.Wrong:
+                incorrectText.gameObject.SetActive(true);
+                break;
+            case ResultType.TimeOut:
+                secondsToWait = 0;
+                fadeDuration = 0;
+                timeOutText.gameObject.SetActive(true);
+                break;
+        }
+        FaidInUI();
     }
 
 }

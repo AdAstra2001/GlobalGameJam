@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,12 +9,12 @@ public class TransititionScreen : MonoBehaviour
     public CanvasGroup group;
     public float fadeDuration = 1.5f;
 
+
     private void Start()
     {
         group.alpha = 0f;
         StartCoroutine(FadeIn());
     }
-
     IEnumerator FadeIn()
     {
         float t = 0f;
