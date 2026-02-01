@@ -20,7 +20,6 @@ public class WinCheck : MonoBehaviour
     {
         if (TimerScript.instance.seconds <= 0)
         {
-            second
             TransitionScreen.instance.ShowResult(TransitionScreen.ResultType.TimeOut);
         }
     }
