@@ -8,11 +8,20 @@ public class WinCheck : MonoBehaviour
         if(other.CompareTag(correctMask)) //checks for the correct one. 
         {
             Debug.Log("Correctmask");
-            TransitionScreen.instance.FaidInUI();
+            TransitionScreen.instance.ShowResult(TransitionScreen.ResultType.Correct);
         }
         else
         {
             Debug.Log("Wrongmask");
+            TransitionScreen.instance.ShowResult(TransitionScreen.ResultType.Wrong);
+        }
+    }
+    private void Update()
+    {
+        if (TimerScript.instance.seconds <= 0)
+        {
+            second
+            TransitionScreen.instance.ShowResult(TransitionScreen.ResultType.TimeOut);
         }
     }
 }
