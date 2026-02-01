@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.Rendering;
 
 public class Dialogue2 : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class Dialogue2 : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private int index;
+    public string[] Button1;
+    public string[] Button2;
+    public string[] Button3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +34,26 @@ public class Dialogue2 : MonoBehaviour
                 textComponent.text = lines[index];
             }
         }
+    }
+
+    public void ChooseOption1()
+    {
+        SwitchDialogue(Button1);
+    }
+    public void ChooseOption2()
+    {
+        SwitchDialogue(Button2);
+    }
+    public void ChooseOption3()
+    {
+        SwitchDialogue(Button3);
+    }
+    void SwitchDialogue(string[] newLines)
+    {
+        StopAllCoroutines();
+        textComponent.text = string.Empty;
+        lines = newLines;
+        StartDialogue();
     }
 
     void StartDialogue()

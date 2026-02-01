@@ -9,18 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d47d3e31d8c91104aa1a6e89542ed1c7
   - enabled: 1
+    path: Assets/Scenes/Person 1.unity
+    guid: 6cc0414a89918654fa94905ae95ba297
+  - enabled: 1
+    path: Assets/Scenes/Person 2.unity
+    guid: 2598bf48c52611c4fa1059bfdd95c4cd
+  - enabled: 1
+    path: Assets/Scenes/Person 3.unity
+    guid: efe98181f49558243997733f20d6fb1c
+  - enabled: 0
     path: Assets/Scenes/2nd GameScene.unity
     guid: bd68eaf07b57b7843ac5e4218398766a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/1st GameScene 1.unity
     guid: 50a113400532e134793c924857c0e04a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3rd GameScene 2.unity
     guid: 441733b1ee359904291512884f4cca5b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HeartsScene.unity
     guid: 7408fb143e148324ca4c4ee87bda6215
   m_configObjects:
