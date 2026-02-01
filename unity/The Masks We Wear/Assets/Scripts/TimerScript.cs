@@ -8,6 +8,7 @@ public class TimerScript : MonoBehaviour
     //public TMP_Text days;
     public int numberOfDays;
     public float seconds;
+    public int fade = 0;
     public static TimerScript instance;
     public Slider timerSlider;
     //public DayNightScript dayNightScript;
@@ -29,6 +30,7 @@ public class TimerScript : MonoBehaviour
         //UpdateUI();
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -38,6 +40,8 @@ public class TimerScript : MonoBehaviour
         {
             //minutes--;
             seconds = 60;
+            
+
         }
         //if (minutes < 0)
         //{
