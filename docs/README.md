@@ -6,7 +6,7 @@
 
 As the nation of Theni commemorates its centennial, we honor the tragic event that reshaped our society. Twenty years ago, a massive chemical explosion killed millions and caused 99% of us to lose the ability to perceive emotions. As a mandated Mask Therapist, you will assign our residents the proper emotion masks so they can thrive in our wondrous society. Immediately dial 666-131-1911 to report unmasked citizens. If you see something, say something.
 
-![Seal](https://ibb.co/BK3wxS1q)
+![Seal](../art/Theni%20Seal.png)
 
 \*black screen fades, main screen is now visible\*
 
